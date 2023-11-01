@@ -1,0 +1,404 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: purple; /* Purple color */
+    color: #fff; /* White text color */
+    padding: 10px 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    font-family: cursive;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #DDA0DD; /* Plum color on hover */
+}
+
+/* Features section styles */
+#features {
+    background-color: #D87093; /* PaleVioletRed background color */
+    padding: 60px 0;
+}
+
+.features-title {
+    order: 1; /* Display the title first */
+}
+
+.features-list {
+    order: 2; /* Display the features in the second row */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #AE63E4; /* Purple color */
+    color: #fff; /* White text color */
+}
+
+.feature-icon {
+    font-size: 48px;
+    color: #00f; /* Blue color */
+}
+
+.feature-text {
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #fff; /* White text color */
+}
+
+.feature p {
+    font-size: 16px;
+    color: #FF1493; /* DeepPink color */
+}
+
+/* Key Features text style */
+.key {
+    color: #FF1493; /* DeepPink color */
+    font-family: cursive;
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.sx {
+    font-family: cursive;
+    color: #220822; /* Dark purple text color */
+}
+.feature {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #AE63E4; /* Purple color */
+    color: #fff; /* White text color */
+    transition: background-color 0.3s; /* Add transition for smoother hover effect */
+}
+/* Add CSS for the hover effect */
+/* Add CSS for the hover effect */
+.feature-hover {
+    border: 2px solid #DDA0DD; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s; /* Add a smooth transition for scale */
+    cursor: pointer;
+}
+
+.feature-hover:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+/* Pricing section styles */
+#pricing {
+    background-color: #F3F3F3; /* Light gray background color */
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #333; /* Dark gray text color */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-plan {
+    background-color: #FFF; /* White background for each plan */
+    border: 1px solid #E0E0E0; /* Light gray border */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan-title {
+    font-size: 24px;
+    color: #333; /* Dark gray text color */
+}
+
+.plan-price {
+    font-size: 18px;
+    color: #FF1493; /* DeepPink text color for price */
+    margin: 10px 0;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan-features li {
+    margin: 10px 0;
+    color: #555; /* Medium gray text color for features */
+}
+.feature {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #AE63E4; /* Purple color */
+    color: #fff; /* White text color */
+    transition: transform 0.3s; /* Add a transition for the hover effect */
+}
+
+.feature:hover {
+    transform: scale(1.05); /* Scale the feature on hover */
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF1493; /* DeepPink background for buttons */
+    color: #FFF; /* White text color for buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #C71585; /* Darker DeepPink on hover */
+}
+.section-title{
+    color: rgba(230, 36, 101, 0.786); /* DeepPink color */
+    font-family: cursive;
+    background-color: #AE63E4;
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+#pricing{
+    background-color: #AE63E4;
+}
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-plan {
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Added transition property for the hover effect */
+}
+
+.pricing-plan:hover {
+    transform: scale(1.05); /* Enlarge the plan on hover */
+}
+
+.plan-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.plan-price {
+    font-size: 18px;
+    color: #FF1493;
+    margin: 10px 0;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan-features li {
+    margin: 10px 0;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF1493;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #C71585;
+}
+#testimonials {
+    background-color: palevioletred;
+    padding: 60px 0;
+}
+
+.section-title {
+    color: #FF1493; /* DeepPink color */
+    font-family: cursive;
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+    background-color: #AE63E4;
+}
+
+.testimonials-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #fff; /* White background for each testimonial */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Adding a transition for the hover effect */
+}
+
+.testimonial:hover {
+    transform: scale(1.05); /* Scaling up the testimonial on hover */
+}
+.section-tit2le{
+    background-color: palevioletred;
+    font-family: cursive;
+    color: #C71585;
+    font-size: 70px;
+    text-align: center;
+}
+.testimonial img {
+    border-radius: 50%; /* Make user images round */
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #333; /* Dark gray text color for testimonials */
+    margin: 20px 0;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    color: #888; /* Light gray text color for author names */
+}
+/* Contact section styles */
+#contact {
+    background-color: #C71585; /* Light gray background color */
+    padding: 60px 0;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #333; /* Dark gray text color */
+    margin: 10px 0;
+}
+.section-title3{
+    background-color: #C71585;
+    color: #D87093;
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.contact-info{
+    text-align: center;
+    color: #AE63E4;
+}
+/* Footer styles */
+footer {
+    background-color: #222; /* Dark background color for the footer */
+    color: #fff; /* White text color for the footer */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+    opacity: 0.7; /* Slightly transparent text */
+}
+.feature {
+    /* ... Existing styles ... */
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    background-color: #DDA0DD; /* Change background color on hover */
+}
+.testimonial {
+    /* ... Existing styles ... */
+    transition: transform 0.3s;
+}
+
+.testimonial:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+.pricing-plan {
+    /* ... Existing styles ... */
+    transition: transform 0.3s;
+}
+
+.pricing-plan:hover {
+    transform: scale(1.05); /* Enlarge the plan on hover */
+}
